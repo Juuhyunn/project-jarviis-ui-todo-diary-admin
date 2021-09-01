@@ -3,33 +3,26 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 
-const Navigation = () => (
+const JarviisNavigation = () => (
 <>
 <Nav>
     <Navul>
-        <Navli><Link to="/home">Home</Link></Navli>
-        <Navli><Link to="/login">login</Link></Navli>
-        <Navli><Link to="/join">join</Link></Navli>
-        <Navli><Link to="/course-resister">course-resister</Link></Navli>
-        <Navli><Link to="/number-range">number-range</Link></Navli>
-        <Navli><Link to="/date-month">date-month</Link></Navli>
-        <Navli><Link to="/anchor">anchor</Link></Navli>
-        <Navli><Link to="/imagemap">imagemap</Link></Navli>
-        <Navli><Link to="/color">color</Link></Navli>
-        <Navli><Link to="/online-profile">online-profile</Link></Navli>
-        <Navli><Link to="/school-status">school-status</Link></Navli>
+        <Navli><Link to="/todolist">To-do list</Link></Navli>
+        <Navli><Link to="/dairy">Dairy</Link></Navli>
+        <Navli><Link to="/admin">Admin</Link></Navli>
     </Navul>
 </Nav>
 </>
 )
-export default Navigation
+export default JarviisNavigation
 
 const Nav = styled.div`
-    position:relative;
-    background: #251472;
+    // position:fixed;
+    text-align:center;
+    background: #20c997;
     margin-top:-15px;
     width:100%;
-    height:150px;
+    height:100px;
 `
 
 const Navul = styled.ul`
@@ -40,9 +33,9 @@ const Navul = styled.ul`
 `
 
 const Navli = styled.li`
-    display:inline;
+    text-align:center;
     float:left;
     font-size:20px;
-    background-color:#fff;
+    // background-color: yellow;
     width: 10%;
 `

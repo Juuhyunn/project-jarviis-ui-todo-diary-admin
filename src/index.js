@@ -4,14 +4,12 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Jarviis from './Jarviis';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <App /> */}
-      <Jarviis/>
+      <App />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
