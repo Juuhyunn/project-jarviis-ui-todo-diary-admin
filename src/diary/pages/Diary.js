@@ -21,7 +21,7 @@ const Diary = () => {
                 <DiaryTd><Weatherimg src={weather} alt=""/></DiaryTd>
             </DiaryTr>
             <DiaryTr>
-                <DiaryTd colSpan="10" ></DiaryTd>
+                <DiaryTd colSpan="10" ><Dairyimg src={dairy} alt=""/></DiaryTd>
             </DiaryTr>
             <DiaryTr>
                 <DiaryTd>안</DiaryTd>
@@ -72,7 +72,7 @@ const Diary = () => {
                 <DiaryTd></DiaryTd>
             </DiaryTr>
         </DiaryTable>
-        <Dairyimg src={dairy} alt=""/>
+        
     </DairyDiv>
     </>)
 }

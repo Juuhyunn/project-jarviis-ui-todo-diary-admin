@@ -9,7 +9,7 @@ import {Admin} from 'admin/index';
 
 
 
-const Jarviis = () => (
+const App = () => (
     <>
     <Header/>
     <Navigation/>
@@ -23,4 +23,4 @@ const Jarviis = () => (
     </Switch>
     </>
   );
-export default Jarviis;
+export default App;
