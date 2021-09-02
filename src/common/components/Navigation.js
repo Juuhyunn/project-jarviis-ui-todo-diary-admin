@@ -10,6 +10,17 @@ const JarviisNavigation = () => (
         <Navli><Link to="/todolist">To-do list</Link></Navli>
         <Navli><Link to="/dairy">Dairy</Link></Navli>
         <Navli><Link to="/admin">Admin</Link></Navli>
+
+        <Navli><Link to="/login">Login</Link></Navli>
+        <Navli><Link to="/join">Join</Link></Navli>
+        <Navli><Link to="/checklist">Checklist</Link></Navli>
+
+        <Navli><Link to="/calendar">Calendar</Link></Navli>
+        <Navli><Link to="/scheduler">Scheduler</Link></Navli>
+        <Navli><Link to="/day">Day</Link></Navli>
+        <Navli><Link to="/suggestion">Suggestion</Link></Navli>
+        <Navli><Link to='/history'style={{textDecorationLine:'none',color:'black'}}><strong>History</strong></Link></Navli>
+        <Navli><Link to='/review'style={{textDecorationLine:'none',color:'black'}}><strong>Review</strong></Link></Navli>
     </Navul>
 </Nav>
 </>
@@ -19,7 +30,7 @@ export default JarviisNavigation
 const Nav = styled.div`
     // position:fixed;
     text-align:center;
-    background: #20c997;
+    background: lightgray;
     margin-top:-15px;
     width:100%;
     height:100px;
@@ -37,5 +48,5 @@ const Navli = styled.li`
     float:left;
     font-size:20px;
     // background-color: yellow;
-    width: 10%;
+    width: 8%;
 `

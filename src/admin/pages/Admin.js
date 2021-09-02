@@ -146,7 +146,7 @@ const LogDiv = styled.div`
     width: 80%;
 `
 const Fieldset = styled.fieldset`
-    // float:right;
+    float:right;
     text-align: right;
     border:none;
 `

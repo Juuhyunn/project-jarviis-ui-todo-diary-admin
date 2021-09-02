@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Header = () => {
     return(<>
     <HeaderDiv>
-        <h1>Jarviis</h1>
+        <h1><Link to="/">Jarviis</Link></h1>
     </HeaderDiv>
     </>)
 }
@@ -15,6 +16,6 @@ const HeaderDiv = styled.div`
     // position:fixed;
     // width:100%;
     height:100px;
-    background-color: lightgray;
+    // background-color: lightgray;
     padding: 10px;
 `

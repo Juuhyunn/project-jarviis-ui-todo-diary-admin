@@ -35,7 +35,7 @@ const MyPage = () => {
             <Menu>    
             <Menuul>
                 <Menuli>
-                    <Link to="/"><Icon src = {setting} alt=""/>Setting</Link>
+                    <Link to="/setting"><Icon src = {setting} alt=""/>Setting</Link>
                 </Menuli>
                 <Menuli>
                     <Link to="/"><Icon src = {logout} alt=""/>LogOut</Link>
@@ -61,7 +61,7 @@ const MyPageDiv = styled.div`
     float:left;
     width: 250px;
     height: 450px;
-    background-color: #20c997;
+    background-color: lightgray;
     border-radius:20px;
 
 `
