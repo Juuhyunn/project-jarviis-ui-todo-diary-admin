@@ -89,3 +89,9 @@ const Icon = styled.img`
     height: 20px;
     padding: 3px;
 `
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Juuhyunn/project-jarviis-ui-todo-diary-admin_HOME.git
+git push -u origin main
